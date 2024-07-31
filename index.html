@@ -19,7 +19,7 @@
      <div class="line">
      <span class="line-1"></span><br>
      <span class="line-2"></span><br>
-     <span class="line-3"></span><br>
+     <span class="line-3"></span>
      </div>
    </div> 
  </div> 
@@ -28,17 +28,125 @@
     
 <nav id="sideNav">
  <ul>
-  <li><a href="">HOME</a></li>
-  <li><a href="">ABOUT US</a></li>
-  <li><a href="">FEATURES</a></li>
-  <li><a href="">COURSES</a></li>
-  <li><a href="">OFFER</a></li>
-  <li><a href="">CONTACT</a></li>
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">ABOUT US</a></li>
+  <li><a href="#">FEATURES</a></li>
+  <li><a href="#">COURSES</a></li>
+  <li><a href="#">OFFER</a></li>
+  <li><a href="#">CONTACT</a></li>
  </ul> 
 </nav>
+<img src="images/menu.png" id="menuBtn">
+
+
+<!-- about -->
+
+<section id="about">
+ <div class="about-left-col">
+<img src="images/about.png">
+ </div> 
+ <div class="about-right-col">
+  <div class="about-text">
+   <h1>About Us</h1> 
+   <span class="square"></span>
+   <p>Country to popular belief, Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta exercitationem, odit labore vero quas expedita ad, totam amet ullam itaque harum aliquid officia soluta esse rerum beatae velit omnis deleniti eius corrupti corporis unde! Qui deserunt, nostrum, ad maiores sunt repellat quis natus adipisci alias quod voluptatem minima officiis quibusdam laborum corrupti ex nobis neque autem in soluta.</p><br><br>
+   <div class="line">
+    <span class="line-1"></span><br>
+    <span class="line-2"></span><br>
+    <span class="line-3"></span>
+    </div>
+
+   <h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"</h2>
+   <h3>----Abigail Adams</h3>
+  </div>
+ </div> 
+</section>
+
+<!-- features -->
+
+<section id="features">
+ <div class="feature-row">
+  <div class="feature-col">
+    <img src="images/pic-1.png" alt="">
+    <h4>Learn Anywhere</h4>
+    <p>Switch between your computer, tablet or<br> mobile device.</p>
+  </div>
+  <div class="feature-col">
+    <img src="images/pic-2.png" alt="">
+    <h4>Expert Teachers</h4>
+    <p>Learn from industry experts who are passionate about teaching.</p>
+  </div>
+  <div class="feature-col">
+    <img src="images/pic-3.png" alt="">
+    <h4>Unlimited Access</h4>
+    <p>Choose what you'd like to learn from our extensive subscription library.</p>
+  </div>
+ </div>
+ <div class="feature-btn">
+  <div class="line">
+    <span class="line-1"></span><br>
+    <span class="line-2"></span><br>
+    <span class="line-3"></span>
+    </div>
+  <button class="common-btn">Start Free Trial</button>
+ </div>
+</section>
+
+<!-- courses -->
+
+<section id="courses">
+ <div class="container course-row">
+  <div class="course-left-col">
+<div class="course-text">
+  <h1>Browse Our Top <br>Courses</h1>
+  <span class="square"></span>
+    <p>Contrary to popular belief, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ratione consequuntur cum dignissimos nam sunt, tempore quos possimus odio eligendi sapiente impedit aliquid perferendis dolorum molestiae iure voluptatum.</p>
+     <button class="common-btn">View All Courses</button>
+     <div class="line">
+     <span class="line-1"></span><br>
+     <span class="line-2"></span><br>
+     <span class="line-3"></span>
+     </div>
+</div>
+  </div>
+  <div class="course-right-col">
+   <img src="images/course.png"> 
+  </div>
+ </div> 
+</section>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+ var menuBtn = document.getElementById("menuBtn");  
+ var sideNav = document.getElementById("sideNav");
+
+ sideNav.style.right = "-250px"
+menuBtn.onclick = function(){
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+  }
+  else{
+    sideNav.style.right = "-250px"
+  }
+}
+</script>
 
 
 
